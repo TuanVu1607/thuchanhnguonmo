@@ -8,7 +8,9 @@ int tong(int a, int b){
 	return a+b;
 }
 int hieu(int a, int b);
-
+int tich(int a,int b){
+	return a*b;
+}
 int main()
 {
 	int a, b;
@@ -21,6 +23,8 @@ int main()
 	cin >> hieu(a,b);
 	cout << "Tong 2 so la: ";
 	cin >> tong(a,b);
+	cout << "Tich 2 so la: ";
+	cin >> tich(a,b);
 	system("pause");
 	return 0;
 }
