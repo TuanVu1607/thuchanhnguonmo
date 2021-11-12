@@ -4,6 +4,10 @@ int tong(int a, int b);
 int hieu(int a, int b){
 	return a-b;
 }
+int tong(int a, int b){
+	return a+b;
+}
+int hieu(int a, int b);
 
 int main()
 {
@@ -15,6 +19,8 @@ int main()
 	cin >> b;
 	cout << "Hieu 2 so la: ";
 	cin >> hieu(a,b);
+	cout << "Tong 2 so la: ";
+	cin >> tong(a,b);
 	system("pause");
 	return 0;
 }
